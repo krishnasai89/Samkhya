@@ -1,1 +1,57 @@
 @import "tailwindcss";
+
+@layer base {
+  @media (min-width: 1024px) {
+    body,
+    a,
+    button,
+    .cosmic-node {
+      cursor: none !important;
+    }
+  }
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  font-family: var(--font-mono), monospace;
+  overflow-x: hidden;
+}
+
+/* Custom WebGL/ASCII DOM container layer stabilization */
+div[style*="position: absolute"][style*="font-family: monospace"] {
+  z-index: 0 !important;
+  opacity: 0.25; /* Dial down background text density contrast for supreme copy readability */
+  mix-blend-mode: screen;
+}
+
+/* Disable standard native scroll behavior limits for buttery GSAP scrubs */
+html {
+  scroll-behavior: auto !important;
+}
+
+/* Creative Dev UI utilities */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Hardware cursor override rules */
+@media (min-width: 1024px) {
+  body,
+  a,
+  button,
+  .cosmic-node,
+  .cosmic-node * {
+    cursor: none !important;
+  }
+}

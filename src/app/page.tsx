@@ -1,50 +1,121 @@
-import Scene from "@/components/canvas/Scene";
-import PrakritiMesh from "@/components/canvas/PrakritiMesh";
-import AsciiEffect from "@/components/canvas/AsciiEffect";
+import TextReveal from "@/components/ui/TextReveal";
+import CosmicPipeline from "@/components/ui/CosmicPipeline";
+import CosmicGlossary from "@/components/ui/CosmicGlossary";
+import CosmicHistory from "@/components/ui/CosmicHistory";
+import ModernPerspectives from "@/components/ui/ModernPerspectives";
+import ModernTechMapping from "@/components/ui/ModernTechMapping";
+import CosmicMyths from "@/components/ui/CosmicMyths";
+import CosmicChapters from "@/components/ui/CosmicChapters";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen text-white select-none">
-      {/* 3D WebGL to ASCII Background Layer */}
-      <Scene>
-        <ambientLight intensity={1.5} />
-        <pointLight position={[10, 10, 10]} intensity={2} />
-        <directionalLight position={[-5, 5, 5]} intensity={1.5} />
+    <main className="relative min-h-[300vh] text-white select-none bg-black/50 overflow-hidden font-mono selection:bg-purple-500/20">
+      {/* Dynamic 3D WebGL ASCII Backdrop Canvas */}
 
-        <PrakritiMesh />
-        <AsciiEffect
-          characters=" .:-=+*#%@"
-          options={{
-            invert: true,
-            color: false,
-            bgColor: "#000000",
-            fontSize: "9px",
-          }}
-        />
-      </Scene>
-
-      {/* HTML DOM Content Scrolling Over the ASCII Art */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-96 bg-black/70">
-        <header className="mb-24 mix-blend-difference">
-          <p className="text-xs tracking-[0.3em] text-neutral-400 uppercase font-mono mb-2">
-            Dualistic Cosmology // School of Kapila
+      {/* Core UI Narrative Container */}
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-36 pb-40 space-y-24">
+        {/* HUD Technical Header */}
+        <header className="space-y-4">
+          <p className="text-xs tracking-[0.3em] text-neutral-500 uppercase">
+            System Framework // Rational Metaphysics of Kapila
           </p>
-          <h1 className="text-6xl font-bold tracking-tighter sm:text-8xl font-sans uppercase">
-            Samkhya
-          </h1>
+
+          <div className="relative p-6 sm:p-8 border border-neutral-800 bg-neutral-950/40 backdrop-blur-md rounded-none w-full max-w-4xl group transition-all duration-300 hover:border-neutral-700">
+            <span className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-neutral-700 group-hover:border-white transition-colors" />
+            <span className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-neutral-700 group-hover:border-white transition-colors" />
+            <span className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-neutral-700 group-hover:border-white transition-colors" />
+            <span className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-neutral-700 group-hover:border-white transition-colors" />
+
+            <div className="text-[9px] text-amber-500 tracking-[0.5em] uppercase mb-3">
+              COSMIC_CODE_DECONSTRUCT // v1.0.26
+            </div>
+
+            <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tighter uppercase leading-none text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-neutral-100 to-cyan-400 select-none">
+              SAMKHYA
+            </h1>
+
+            <p className="mt-4 text-[11px] sm:text-xs text-neutral-500 leading-relaxed uppercase tracking-wider max-w-xl">
+              An analytical system mapping the linear descent of unmanifested
+              nature into the structural mechanics of observation and physical
+              reality.
+            </p>
+          </div>
         </header>
 
-        <section className="max-w-xl font-mono text-sm leading-relaxed text-neutral-400">
-          <p className="mb-6">
-            The cosmos is an interplay of two eternal realities:
-            <span className="text-white"> Purusha</span> (pure consciousness)
-            and
-            <span className="text-white"> Prakriti</span> (primordial matter).
-          </p>
-          <p>
-            Scroll down to watch unmanifested code crystallize into the 24
-            Tattvas of existence.
-          </p>
+        {/* Cinematic Title Reveal Sequence */}
+        <TextReveal
+          text="Reality is an empirical equation. By isolating the conscious observer from the biological tools of the mind, the system systematically maps out the termination of human suffering."
+          className="border-l-2 border-neutral-800 pl-6 text-neutral-400 max-w-3xl"
+        />
+
+        {/* Node Group 1: The Interactive Link Map */}
+        <section className="space-y-4">
+          <div className="text-center w-full">
+            <span className="text-lg tracking-[0.4em] text-yellow-500 uppercase">
+              01 / The 25 Tattvas Cascading Pipeline
+            </span>
+          </div>
+          <CosmicPipeline />
+        </section>
+
+        {/* Node Group 2: Canonical Archives */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-lg tracking-[0.4em] text-purple-400 uppercase">
+              02 / Core Definition Glossary Archive
+            </span>
+          </div>
+          <CosmicGlossary />
+        </section>
+
+        {/* 03 / Myths Audit Panel */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-[10px] tracking-[0.4em] text-amber-500 uppercase">
+              03 / Deconstructing Common Misconceptions
+            </span>
+          </div>
+          <CosmicMyths />
+        </section>
+
+        {/* Node Group 4: Historical Records */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-lg text-amber-500 tracking-[0.4em] uppercase">
+              04 / Chronicle Timeline & Textual Linage
+            </span>
+          </div>
+          <CosmicHistory />
+        </section>
+
+        {/* Node Group 5: Computer Science Architecture Alignment */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-lg tracking-[0.4em] text-emerald-500 uppercase">
+              05 / Cognitive Software & AI Modeling Parallel
+            </span>
+          </div>
+          <ModernTechMapping />
+        </section>
+
+        {/* Node Group 6: Modern Exegesis */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-lg tracking-[0.4em] text-cyan-400 uppercase">
+              06 / Contemporary Perspectives & Interpretations
+            </span>
+          </div>
+          <ModernPerspectives />
+        </section>
+
+        {/* Append immediately under your existing layout sections within src/app/page.tsx */}
+        <section className="space-y-4 pt-12">
+          <div className="text-center w-full">
+            <span className="text-lg tracking-[0.4em] text-purple-400 uppercase">
+              06 / Sāṃkhyapravacana Sūtra Six Chapters Hub
+            </span>
+          </div>
+          <CosmicChapters />
         </section>
       </div>
     </main>

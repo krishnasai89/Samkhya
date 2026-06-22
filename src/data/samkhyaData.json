@@ -1,0 +1,114 @@
+{
+  "chapters": [
+    {
+      "chapter_id": "1",
+      "title": "Viṣayādhyāya",
+      "translation": "Topics of Reality",
+      "total_aphorisms": 164,
+      "macro_summary": "The introductory layer establishes the structural baseline of Samkhya philosophy. It defines the threefold nature of human suffering, proves that ultimate liberation is achieved exclusively by separating consciousness from matter, and presents the foundational rational proof demonstrating why a creator deity is an unnecessary logical assumption to explain the universe.",
+      "shlokas": [
+        {
+          "sutra_id": "1-1",
+          "sutra_number": "1.1",
+          "sanskrit": "अथ त्रिविधदुःखात्यन्तनिवृत्तिरत्यन्तपुरुषार्थः ॥",
+          "translation": "The absolute termination of the three operational forms of suffering is the ultimate goal of conscious human existence.",
+          "misconception": "People assume this declares the world is a place of endless, unescapable misery, painting Samkhya as a deeply pessimistic, depressing philosophy that promotes world-negation.",
+          "reality": "It functions like a clinical medical diagnosis. It states that suffering is a systemic layout condition of the material world. By acknowledging its mechanics objectively, you can apply analytical discrimination to terminate it entirely, making it an inherently therapeutic framework."
+        },
+        {
+          "sutra_id": "1-92",
+          "sutra_number": "1.92",
+          "sanskrit": "ईश्वरासिद्धेः ॥",
+          "translation": "The existence of a permanent, creationist controller God is unproved and logically unnecessitated.",
+          "misconception": "Dogmatic commentators claim this is a hostile, aggressive declaration of anti-theistic atheism aimed at destroying spirituality.",
+          "reality": "It is an exercise in strict logical economy. Samkhya simply points out that an unchanging entity cannot be the material cause of an ever-changing universe. The dynamic friction between Purusha and Prakriti accounts for reality completely without needing a divine instigator."
+        }
+      ]
+    },
+    {
+      "chapter_id": "2",
+      "title": "Pradhānādhyāya",
+      "translation": "The Evolution of Nature",
+      "total_aphorisms": 47,
+      "macro_summary": "This chapter details the precise linear cascade of Prakriti as it transforms from a silent, dormant baseline potentiality (Avyakta) into the objective cosmos. It maps out the systematic emergence of the internal psychic organ (Intellect, Ego, Mind) and the physical atomic elements step-by-step.",
+      "shlokas": [
+        {
+          "sutra_id": "2-10",
+          "sutra_number": "2.10",
+          "sanskrit": "समानकर्मयोगे बुद्धेः प्राधान्यं लोकवल्लोके ॥",
+          "translation": "Even though all internal organs cooperate, the Intellect (Buddhi) holds paramount structural supremacy.",
+          "misconception": "People read this and assume that Samkhya values raw, aggressive intellectual egoism, scholastic vanity, and cold academic data gathering above all else.",
+          "reality": "Buddhi here does not mean intellectual pride. It represents the capacity for clear, unclouded metaphysical determination and judgment—the exact mirror tool needed to realize the absolute separation between the witness and matter."
+        }
+      ]
+    },
+    {
+      "chapter_id": "3",
+      "title": "Vairāgyādhyāya",
+      "translation": "Detachment and Bondage",
+      "total_aphorisms": 84,
+      "macro_summary": "An extensive analysis of the psychological framework, the structural mechanics of the subtle body (Linga Sharira), and how unconscious mental impressions (Bhavas) trap awareness inside constant feedback loops of stress, emotional entanglement, and rebirth.",
+      "shlokas": [
+        {
+          "sutra_id": "3-73",
+          "sutra_number": "3.73",
+          "sanskrit": "न मलिनाविकारस्य तद्योगः ॥",
+          "translation": "The pure, unalterable conscious witness cannot be truly stained or bound by the mutations of matter.",
+          "misconception": "Many believe that their spiritual soul or core self is actively damaged, broken, or dirtied by bad deeds, karma, and traumatic experiences.",
+          "reality": "Consciousness (Purusha) is like absolute light passing through contaminated water. The water moves and holds dirt, but the light particles themselves remain perfectly unblemished. True bondage is merely an illusion caused by temporary cognitive misidentification."
+        }
+      ]
+    },
+    {
+      "chapter_id": "4",
+      "title": "Ākhyāyikādhyāya",
+      "translation": "Philosophical Allegories",
+      "total_aphorisms": 28,
+      "macro_summary": "A highly practical collection of pragmatic parables, field fables, and operational case studies designed to translate complex taxonomic lists and metaphysical concepts into clear, intuitive, and actionable everyday lessons.",
+      "shlokas": [
+        {
+          "sutra_id": "4-1",
+          "sutra_number": "4.1",
+          "sanskrit": "राजपुत्रवत्तत्त्वोपदेशात् ॥",
+          "translation": "Realization occurs instantly, much like the classic awakening of the lost prince who discovers his royal lineage.",
+          "misconception": "People assume liberation is a laborious, additive physical construction process where you build a holy self over decades of agony.",
+          "reality": "You do not build freedom; you simply uncover it. Like a prince raised by hunters who suddenly remembers his true identity when told, liberation is the immediate dropping of a false psychological narrative."
+        }
+      ]
+    },
+    {
+      "chapter_id": "5",
+      "title": "Parapakṣanirākaraṇa",
+      "translation": "Refutation of Rival Schools",
+      "total_aphorisms": 129,
+      "macro_summary": "A technical dialectical defense grid. This chapter contains highly formal, rigorous debates that systematically deconstruct and reject competing structural, epistemological, and metaphysical claims from monistic Vedanta, Buddhist nihilism, and Vaisheshika atomism.",
+      "shlokas": [
+        {
+          "sutra_id": "5-56",
+          "sutra_number": "5.56",
+          "sanskrit": "न विज्ञानमात्रं बाह्यप्रतीतेः ॥",
+          "translation": "Reality is not mere subjective projection; the external material objective world undeniably exists.",
+          "misconception": "Critics claim Samkhya is purely mystical solipsism or subjective idealism, maintaining that everything outside our heads is fake or a dream.",
+          "reality": "Samkhya stands as an uncompromising realism. The mountain you look at exists independent of your mind. Suffering is caused by how your internal ego tags, personalizes, and attaches to that mountain, not because the physical mountain is a ghost."
+        }
+      ]
+    },
+    {
+      "chapter_id": "6",
+      "title": "Tantrasāradhyāya",
+      "translation": "The Essence of the Doctrine",
+      "total_aphorisms": 69,
+      "macro_summary": "The terminal synthesis of the system. It consolidates all preceding aphoristic axioms into a focused, immutable operational loop, confirming that final detachment releases Prakriti into perfect equilibrium and leaves Purusha resting in its native, eternal isolation (Kaivalya).",
+      "shlokas": [
+        {
+          "sutra_id": "6-63",
+          "sutra_number": "6.63",
+          "sanskrit": "प्रकृतेः सुकुमारत्वान् न पुनदर्शनं पुरुषस्य ॥",
+          "translation": "Nature is inherently bashful; once she realizes she has been seen by the witness, she retires from the stage.",
+          "misconception": "Many read this theatrical metaphor literally, assuming Prakriti is an evil, deceptive, or malicious entity that must be violently conquered, hated, or suppressed.",
+          "reality": "Nature is completely benevolent. The entire purpose of cosmic evolution is to provide experience for the witness, and eventually, its liberation. Once the analytical mind catches the display, the false attachment dissolves automatically, and nature folds peacefully back into baseline balance."
+        }
+      ]
+    }
+  ]
+}
