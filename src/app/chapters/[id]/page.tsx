@@ -74,8 +74,9 @@ export default async function ChapterPage({ params }: PageProps) {
             {data.shlokas.map((shloka, index) => (
               <Link
                 key={index}
-                href={`/chapters/${id}/sutras/${shloka.sutra_id}`} // Pass url friendly hyphenated parameter string safely
-                className="group block border border-neutral-900 bg-neutral-950/20 p-4 relative transition-all duration-200 hover:border-purple-500/30 hover:bg-neutral-950/60"
+                id={`sutra-${shloka.sutra_id}`} // Crucial anchor point targets
+                href={`/chapters/${id}/sutras/${shloka.sutra_id}`}
+                className="group block border border-neutral-900 bg-neutral-950/20 p-4 relative transition-all duration-200 hover:border-purple-500/30 hover:bg-neutral-950/60 scroll-mt-24"
               >
                 <div className="flex justify-between items-center mb-1">
                   <span className="text-[10px] text-purple-400 font-bold">

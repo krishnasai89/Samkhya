@@ -6,12 +6,13 @@ import ModernPerspectives from "@/components/ui/ModernPerspectives";
 import ModernTechMapping from "@/components/ui/ModernTechMapping";
 import CosmicMyths from "@/components/ui/CosmicMyths";
 import CosmicChapters from "@/components/ui/CosmicChapters";
+import CustomCursor from "@/components/ui/CustomCursor";
 
 export default function Home() {
   return (
-    <main className="relative min-h-[300vh] text-white select-none bg-black/50 overflow-hidden font-mono selection:bg-purple-500/20">
+    <main className="relative min-h-[300vh] text-white bg-black/50 overflow-hidden font-mono selection:bg-purple-500/20 scroll-smooth">
       {/* Dynamic 3D WebGL ASCII Backdrop Canvas */}
-
+      <CustomCursor />
       {/* Core UI Narrative Container */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 pt-36 pb-40 space-y-24">
         {/* HUD Technical Header */}
@@ -49,7 +50,7 @@ export default function Home() {
         />
 
         {/* Node Group 1: The Interactive Link Map */}
-        <section className="space-y-4">
+        <section id="tattvas-pipeline" className="space-y-4 scroll-mt-24">
           <div className="text-center w-full">
             <span className="text-lg tracking-[0.4em] text-yellow-500 uppercase">
               01 / The 25 Tattvas Cascading Pipeline
@@ -59,7 +60,7 @@ export default function Home() {
         </section>
 
         {/* Node Group 2: Canonical Archives */}
-        <section className="space-y-4 pt-12">
+        <section id="glossary-archive" className="space-y-4 pt-12 scroll-mt-24">
           <div className="text-center w-full">
             <span className="text-lg tracking-[0.4em] text-purple-400 uppercase">
               02 / Core Definition Glossary Archive
@@ -69,9 +70,9 @@ export default function Home() {
         </section>
 
         {/* 03 / Myths Audit Panel */}
-        <section className="space-y-4 pt-12">
+        <section id="myths-audit" className="space-y-4 pt-12 scroll-mt-24">
           <div className="text-center w-full">
-            <span className="text-[10px] tracking-[0.4em] text-amber-500 uppercase">
+            <span className="text-lg tracking-[0.4em] text-amber-500 uppercase">
               03 / Deconstructing Common Misconceptions
             </span>
           </div>
@@ -79,7 +80,10 @@ export default function Home() {
         </section>
 
         {/* Node Group 4: Historical Records */}
-        <section className="space-y-4 pt-12">
+        <section
+          id="chronicle-timeline"
+          className="space-y-4 pt-12 scroll-mt-24"
+        >
           <div className="text-center w-full">
             <span className="text-lg text-amber-500 tracking-[0.4em] uppercase">
               04 / Chronicle Timeline & Textual Linage
@@ -89,7 +93,7 @@ export default function Home() {
         </section>
 
         {/* Node Group 5: Computer Science Architecture Alignment */}
-        <section className="space-y-4 pt-12">
+        <section id="tech-mapping" className="space-y-4 pt-12 scroll-mt-24">
           <div className="text-center w-full">
             <span className="text-lg tracking-[0.4em] text-emerald-500 uppercase">
               05 / Cognitive Software & AI Modeling Parallel
@@ -99,7 +103,10 @@ export default function Home() {
         </section>
 
         {/* Node Group 6: Modern Exegesis */}
-        <section className="space-y-4 pt-12">
+        <section
+          id="modern-perspectives"
+          className="space-y-4 pt-12 scroll-mt-24"
+        >
           <div className="text-center w-full">
             <span className="text-lg tracking-[0.4em] text-cyan-400 uppercase">
               06 / Contemporary Perspectives & Interpretations
@@ -108,11 +115,11 @@ export default function Home() {
           <ModernPerspectives />
         </section>
 
-        {/* Append immediately under your existing layout sections within src/app/page.tsx */}
-        <section className="space-y-4 pt-12">
+        {/* Node Group 7: Chapter Sūtras Hub */}
+        <section id="chapters-hub" className="space-y-4 pt-12 scroll-mt-24">
           <div className="text-center w-full">
             <span className="text-lg tracking-[0.4em] text-purple-400 uppercase">
-              06 / Sāṃkhyapravacana Sūtra Six Chapters Hub
+              07 / Sāṃkhyapravacana Sūtra Six Chapters Hub
             </span>
           </div>
           <CosmicChapters />
